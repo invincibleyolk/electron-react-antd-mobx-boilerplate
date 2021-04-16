@@ -2,17 +2,17 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 const url = require('url')
+const pkg = require('./package.json')
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
-const ENV = process.env.NODE_ENV;
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 800, height: 600})
 
   // and load the index.html of the app.
   //   mainWindow.loadFile('build/index.html')
-  if(ENV=='development') { 
+  if(pkg.DEV) { 
     mainWindow.loadURL("http://localhost:3000/")
   } else { 
     mainWindow.loadURL(url.format({
