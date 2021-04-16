@@ -1,5 +1,5 @@
 # electron-react-antd-mobx-ts-boilerplate
- A boilderplate of electron&amp;react&amp;antd&amp;mobx with simple example   
+ A boilerplate of electron&amp;react&amp;antd&amp;mobx with simple example   
  Absolutely can run!(Has tested in my own computer. Contact me if you can't😂)   
  绝对可以用的脚手架！我自己已经在我电脑里试过，跑不起来你找我😂   
 
@@ -10,7 +10,7 @@
 把项目克隆到本地后，在终端输入    
 ` npm install    `
 
-注：` package.json ` 文件, ` DEV ` 为true时是开发环境，false为生产环境
+注：` package.json ` 文件中的` DEV `控制环境。 为true时是开发环境，false为生产环境
 
 开发环境:   
 ` npm run start // 终端1    `    
@@ -24,30 +24,8 @@
 
 ### 接下来要改进的 (😊)
 1.支持 less
-### How to use ❓
-after you clone this repo to your local, input    
-` npm install    `
-in your terminal.
 
-In ` package.json ` file, ` DEV ` is a boolean and it controls if it's in development env.
-dev env:   
-` npm run start // in your terminal 1    `    
-` npm run electron-dev // in your terminal 2    `
-
-prod env:   
-` npm run build // in your terminal 1     `    
-` npm run electron-build // in your terminal 2    `
-
-I also add an easy sample for the use of mobx.
-The data are stored in /store/ folder.
-So the model and view are seperated.
-
-
-### To be done (Next😊)
-1.support less
-
-### Updates 🎉
-    [4.16] fix env bugs
+-----------------------------------------------------------------------------------------
 ### How to use ❓
 after you clone this repo to your local, input    
 ` npm install    `
