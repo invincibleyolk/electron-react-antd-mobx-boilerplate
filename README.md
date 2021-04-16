@@ -1,5 +1,5 @@
-# electron-react-antd-mobx-boilerplate
- A boilderplate of electron&amp;react&amp;antd&amp;mobx with simple example
+# electron-react-antd-mobx-ts-boilerplate
+ A boilderplate of electron&amp;react&amp;antd&amp;mobx&amp;ts with simple example
 
 ### To be done
 1.support less
