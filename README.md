@@ -1,4 +1,4 @@
-# electron-react-antd-mobx-boilerplate
+# electron-react-antd-mobx-ts-boilerplate
  A boilderplate of electron&amp;react&amp;antd&amp;mobx with simple example   
  Absolutely can run!(Has tested in my own computer. Contact me if you can't😂)   
  绝对可以用的脚手架！我自己已经在我电脑里试过，跑不起来你找我😂   
