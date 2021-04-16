@@ -6,16 +6,16 @@
 
 ### How to use
 after you clone this repo to your local, input    
-> npm install
+` npm install    `
 in your terminal.
 
 dev env:   
-> npm start // in your terminal 1   
-> npm run electron-dev // in your terminal 2
+` npm start // in your terminal 1    `    
+` npm run electron-dev // in your terminal 2    `
 
 prod env:   
-> npm run build // in your terminal 1   
-> npm run electron-build // in your terminal 2   
+` npm run build // in your terminal 1     ` 
+` npm run electron-build // in your terminal 2    `
 
 I also add an easy sample for the use of mobx.
 The data are stored in /store/ folder.
