@@ -14,7 +14,7 @@ dev env:
 ` npm run electron-dev // in your terminal 2    `
 
 prod env:   
-` npm run build // in your terminal 1     ` 
+` npm run build // in your terminal 1     `    
 ` npm run electron-build // in your terminal 2    `
 
 I also add an easy sample for the use of mobx.
