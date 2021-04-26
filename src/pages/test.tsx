@@ -1,7 +1,7 @@
 import { Button, Select } from "antd";
 import { inject, observer } from "mobx-react";
 import React, { Component } from "react";
-import './test.css';
+import css from './test.less';
 import TestStore from "src/store/testStore";
 interface IProps {
     testStore?: TestStore;
@@ -22,8 +22,8 @@ class TestView extends Component<IProps,{}> {
     }
     public render(): React.ReactNode {
         return (
-            <div className={'test'}>
-                <div>
+            <div className={css.test}>
+                <div className={css.testButton}>
                     <Button onClick={this.onClickButton}>how do you do 😊</Button>
                     <Button onClick={this.onClickClear}>clear all</Button>
                 </div>
